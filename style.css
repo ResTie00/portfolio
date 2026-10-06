@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+       url('./fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth     ;
+}
+
+body {
+    width: 100%;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 75%; 
+    max-width: 940px; 
+    margin: 0 auto;
+} 
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; 
+    z-index: 1000;            
+}
+nav {
+    width: 100%;
+    height: 60px;
+}
+
+nav ul {
+    font-size: 18px;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: gray;
+}
+nav li:hover {
+    font-weight: bolder;
+    color: black;
+}
+
+
+.Naming {
+    display: flex;             
+    align-items: center;       
+    min-height: 250px;          
+    text-align: center;    
+    justify-content: space-between;    
+}
+
+.MainName {
+    font-size: 47px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.Prof {
+    font-size: 18px;
+    text-align: left;
+}
+
+.lang-switcher {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.lang-switcher a:hover{
+    font-weight: bold;
+}
+.self-pic {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+
+.description {
+    background-color: #F6F6F6;
+    padding: 120px 0;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%; 
+} 
+
+.desc_cont {
+    max-width: 485px; 
+    margin: 0 auto; 
+}
+
+.desc_cont h2 {
+    font-size: 34px; 
+    margin-bottom: 50px; 
+} 
+
+.desc_cont p {
+    font-size: 18px; 
+    line-height: 1.4; 
+    margin-bottom: 40px; 
+}
+
+.desc_cont p:last-child {
+    margin-bottom: 0px;
+} 
+
+.Skills {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Skills h2 { 
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.Skills h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.img_row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;
+    margin-top: 50px;
+    width: 100%;
+    gap: 30px;
+}
+
+.skill-card {
+    flex: 1;                       
+    display: flex;
+    flex-direction: column;
+    align-items: center;            
+    justify-content: flex-end;
+}
+
+.skill-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.Portfolio {
+    padding: 100px 0;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.Portfolio h1 {
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.Portfolio img {
+    width: 75%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.Portfolio h3{
+    margin-bottom: 100px;
+}
+
+
+footer{
+    display: flex; 
+    height: 350px;
+}
+footer h1, h3{
+    margin-top: 100px;
+    text-align: center;
+} 
+
+.buttonDiv{
+    margin-top: 50px;
+    display: flex; 
+    justify-content: center;
+}
+
+
+
+footer button{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px; 
+    border: none;
+    background-color: #000;
+    color: white;
+    font-family: 'Gilroy-Bold', Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+}
+
+.imgFooter{
+    margin-top: 50px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 30px; 
+}
+.imgFooter img{
+    height: 50px;
+}
+
+.finalLines{
+    height: 60px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color: gray; 
+} 
+
